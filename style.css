@@ -19,6 +19,13 @@ h2, h3 {
     color: #444444;
 }
 
+/*.title-name:hover{
+  text-shadow: 1px 2px 9px #384047;
+  display: block;
+  width: 200px;
+  text-align: center;
+}*/
+
 .rounded-pic:hover {
   box-shadow: 1px 2px 9px #384047;
 }
@@ -32,6 +39,7 @@ img {
   border-radius: 100%;
   border: solid;
   border-color: #F1F4F6;
+  width: 300px
 }
 
 a {
