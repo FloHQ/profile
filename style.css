@@ -102,3 +102,15 @@ table {
 td {
   padding: 10px 15px 10px 15px;
 }
+
+.btn-blue{
+  background-color: #2552AC;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 4px;
+}
+.btn-red:hover{
+  background-color: #112754;
+  color: white;
+}
