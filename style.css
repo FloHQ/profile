@@ -19,6 +19,10 @@ h2, h3 {
     color: #444444;
 }
 
+.rounded-pic:hover {
+  box-shadow: 1px 2px 9px #384047;
+}
+
 img {
   width: 120px;
   border-radius: 5px;
@@ -114,6 +118,8 @@ td {
     width: 300px;
   }
 }
+
+
 
 .gif {
   width: 300px;
