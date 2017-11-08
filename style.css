@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-body {
+/*body {
   font-family: 'Montserrat', sans-serif;
   background-color: #F1F4F6;
   color: #7a7a7a;
   line-height: 15px;
-}
+}*/
 
 h1 {
   font-family: 'Montserrat Subrayada', sans-serif;
@@ -40,9 +40,14 @@ a:hover {
 p {
   font-size: 15px;
 }
-.container {
-  width: 500px;   /* This sets the width */
-  margin: 0 auto; /* This automatically sets left/right margins */
+
+
+td {
+  padding: 10px 15px 10px 15px;
+}
+.container{
+  width: 500px;
+  margin: 30px auto;
 }
 .card {
   text-align: center;
@@ -53,9 +58,39 @@ p {
   padding: 2px;
 }
 
-.lighter-color {
-  opacity: 50%;
+.list-inline {
+  padding-left: 0;
 }
+.list-inline li {
+  display: inline-block;
+  padding: 20px;
+}
+.list-inline li i{
+  font-size: 25px;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.btn-blue{
+  background-color: #2552AC;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  display: block;
+  max-width: 300px;
+  margin: 10px auto 20px;
+}
+
+.btn-blue:hover{
+  background-color: #112754;
+  color: white;
+}
+
+/*responsive*/
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
@@ -74,44 +109,4 @@ p {
   .container {
     width: 300px;
   }
-}
-
-.list-inline {
-  padding-left: 0;
-}
-.list-inline li {
-  display: inline-block;
-  padding: 20px;
-}
-.list-inline li i{
-  font-size: 25px;
-}
-
-.text-center{
-  text-align: center;
-}
-
-table {
-    margin: 0px auto;
-    display: table;
-    border-collapse: separate;
-    border-spacing: 2px;
-    border-color: grey;
-}
-
-td {
-  padding: 10px 15px 10px 15px;
-}
-
-.btn-blue{
-  background-color: #2552AC;
-  color: white;
-  font-weight: 500;
-  padding: 10px;
-  border-radius: 4px;
-}
-
-.btn-blue:hover{
-  background-color: #112754;
-  color: white;
 }
