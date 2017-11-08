@@ -156,6 +156,10 @@ td {
   font-size: 50px;
 }
 
+.fa-icon a:hover{
+  text-shadow: 1px 2px 9px #ffffff;
+}
+
 #sidebar li {
     margin: 50px auto 50px;
 }
