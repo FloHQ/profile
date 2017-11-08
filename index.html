@@ -3,13 +3,44 @@
     <title>Florian's profile</title>
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Subrayada" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Domine:400,700" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
+    <div id="sidebar">
+      <ul class="fa-icon">
+        <li>
+          <a href="#summary">
+            <i class="fa fa-info-circle" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#movies">
+            <i class="fa fa-file-video-o"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#social">
+            <i class="fa fa-share" aria-hidden="true"></i>
+          </a>
+        <li>
+          <a href="#footer"
+            <i class="fa fa-life-ring"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+            <i class="fa fa-music" aria-hidden="true"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div id="page-content">
     <div class="container">
-      <div class="card">
+      <div class="card" id="summary">
         <img src="images/profile_pic.jpg" class="rounded-pic">
         <h1>Florian</h1>
 
@@ -18,7 +49,7 @@
         <p>Learning to code to change the world of law and innovation</p>
         <a href="https://twitter.com/Legaltechstudio" class="btn-blue">Learn more about the future of Law</a>
       </div>
-      <div class="card">
+      <div class="card" id="social">
         <ul class="list-inline lighter-color">
           <li>
             <a href="https://twitter.com/FlorianHcq">
@@ -43,11 +74,7 @@
           </li>
         </ul>
       </div>
-<!--       <div class="card">
-        <h2>Membre anonyme des traumatisés du rake</h2>
-        <img src="images/rake-aborted.gif" class="gif">
-      </div> -->
-      <div class="card">
+      <div class="card" id="movies">
         <h2>My favorite movies</h2>
         <table>
           <tbody>
@@ -81,9 +108,10 @@
           </tbody>
         </table>
       </div>
-      <div class="card">
+      <div class="card" id="footer">
         <h2>About this page</h2>
-        <p>This page has been coded during the <a href="https://www.lewagon.com/program" target="_blank">FullStack program @LeWagon</a>. That was probably the best experience of my entire life.</p>
+        <p>This page has been coded during the <a href="https://www.lewagon.com/program" target="_blank">FullStack program @LeWagon</a>. It was awesome.</p>
+    </div>
  <!--        <ul class="list-inline">
          <li>
            <a href="http://localhost:8000/#">
