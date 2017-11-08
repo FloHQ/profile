@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
-
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: #F1F4F6;
@@ -11,6 +9,10 @@ h1 {
   font-family: 'Montserrat Subrayada', sans-serif;
   color: #2552AC;
   font-size: 30px
+}
+
+h2 {
+    line-height: 24px;
 }
 
 h3 {
